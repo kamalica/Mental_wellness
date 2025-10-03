@@ -1,0 +1,134 @@
+/* Full-screen background with image */
+.landing-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assests/background.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Arial", sans-serif;
+}
+
+/* Dark overlay to make text readable */
+.overlay {
+  background-color: rgba(0, 59, 145, 0.5); /* semi-transparent deep blue */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title */
+.landing-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Quote */
+.landing-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+/* Main landing button */
+.landing-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #003B91; /* deep blue */
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.landing-button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Modal background */
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal container */
+.modal-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #003B91;
+  text-align: center;
+}
+
+.modal-container h2 {
+  margin-bottom: 20px;
+}
+
+.modal-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #003B91;
+  font-size: 1rem;
+}
+
+/* Submit button inside modal */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003B91;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #002060;
+}
+
+/* Cancel button inside modal */
+.close-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e6e6e6;
+  color: #003B91;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-button:hover {
+  background-color: #d4d4d4;
+}

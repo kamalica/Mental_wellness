@@ -1,0 +1,28 @@
+# Frontend Dependencies (for reference - install via npm/package.json)
+
+# Core React
+react@^19.1.1
+react-dom@^19.1.1
+
+# Routing
+react-router-dom@^7.9.2
+
+# Authentication
+@clerk/clerk-react@^5.48.1
+
+# Animation
+framer-motion@^12.23.22
+
+# Build Tool
+vite@^6.3.6
+
+# Dev Dependencies
+@vitejs/plugin-react@^5.0.3
+eslint@^9.36.0
+@types/react@^19.1.13
+@types/react-dom@^19.1.9
+
+# Note: Install all dependencies using:
+# npm install
+# or
+# npm install --legacy-peer-deps (if peer dependency conflicts occur)

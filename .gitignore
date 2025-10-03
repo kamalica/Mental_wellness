@@ -1,0 +1,16 @@
+# Python virtual environments
+Backend/venv/
+Backend/Scripts/venv/
+frontend/mental-wellness-frontend/venv/
+
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Env files
+Backend/.env
+frontend/mental-wellness-frontend/.env
+
+
+# Logs
+*.log
